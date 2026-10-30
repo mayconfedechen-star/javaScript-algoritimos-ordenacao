@@ -1,12 +1,19 @@
-const livros = require ( ' ./listalivros');
+const livros = require('./listaLivros');
+const menorValor = require('./menorValor');
 
-function menorValor( arrProdutos, posicaoinicial){
 
-for (let atual = 0; atual < livros.length; atual++) {
-    if (livros[atual].preco < livros[maisBarato].preco) {
-        maisBarato = atual;
-    }
+for (let atual = 0; atual < livros.length; atual++){
+let menor = menorValor(livros, atual);
+
+let livroAtual = livros[atual];
+let levroMenorPreco = livros[menor];
+
+console.log('posicao atual',atual);
+console.log('livro atual', livroAtual);
+console.log('livro menor preço',livroMenorPreco):
+
+livro[atual] = livroMenorPreco;
+livro[menor]= livroAtual;
 }
-return maisBarato;
-}
-console.log(`O livro mais barato custa ${livros[maisBarato].preco} e o título é ${livros[maisBarato].titulo}`);
+
+console.log(livros);
