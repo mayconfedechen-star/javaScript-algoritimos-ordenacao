@@ -10,7 +10,7 @@ let levroMenorPreco = livros[menor];
 
 console.log('posicao atual',atual);
 console.log('livro atual', livroAtual);
-console.log('livro menor preço',livroMenorPreco):
+console.log('livro menor preço',livroMenorPreco);
 
 livro[atual] = livroMenorPreco;
 livro[menor]= livroAtual;
