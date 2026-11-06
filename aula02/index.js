@@ -20,3 +20,16 @@ function juntaListas(lista1, lista2) {
 
     atual++;
   };
+  
+  console.log(juntaListas(edGalho, edFolha))
+
+  if (produtoAtualLista1.preco < produtoAtualLista2.preco) {
+      listaFinal[atual] = produtoAtualLista1;
+      posicaoAtualLista1++;
+    } else {
+      listaFinal[atual] = produtoAtualLista2;
+      posicaoAtualLista2++;
+    }
+
+    atual++;
+  
