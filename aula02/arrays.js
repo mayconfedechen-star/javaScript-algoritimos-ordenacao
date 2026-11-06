@@ -14,3 +14,4 @@ const edgalho =[
   {titulo: "C++", preco : 35},
   {titulo: "Scala", preco: 40},
 ];
+modelo.exports= {edfolha, edgalho}
